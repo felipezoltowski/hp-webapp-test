@@ -38,3 +38,9 @@ Pathfinder 2E rules that configures as Four Degrees of Succes:
     npm run dev
 
   after the initial npm install
+
+<h2 id="author">Author</h2>
+<a href="https://github.com/felipezoltowski">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/17614829?v=4" width="100px;" alt="Felipe Zoltowski"/>
+ <br />
+ <sub><b>Made By Felipe Zoltowski</b></sub></a>

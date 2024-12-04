@@ -44,3 +44,8 @@ Pathfinder 2E rules that configures as Four Degrees of Succes:
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/17614829?v=4" width="100px;" alt="Felipe Zoltowski"/>
  <br />
  <sub><b>Made By Felipe Zoltowski</b></sub></a>
+
+
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pauloterresleal/)](https://www.linkedin.com/in/felipe-zoltowski/)
+
+ <sub><b>Made By Felipe Zoltowski</b></sub></a>

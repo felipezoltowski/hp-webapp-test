@@ -13,6 +13,8 @@ Pathfinder 2E rules that configures as Four Degrees of Succes:
 
 - Node.js - JavaScript runtime environment.
 
+- Docker - Containerization platform that bundle applications in containers.
+
 ## Installation
 
 1. Clone repository:
@@ -24,13 +26,10 @@ Pathfinder 2E rules that configures as Four Degrees of Succes:
 3. Install dependencies
   npm install
 
-4. Build the docker image
-  docker build -t web-app . 
+4. Run the app with the command:
+  docker compose up
 
-5. Run the docker image
-  docker run -p 5173:80 web-app
-
-6. On your browser, access:
+5. On your browser, access:
   http://localhost:5173:80
 
 ## Usage

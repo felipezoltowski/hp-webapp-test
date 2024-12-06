@@ -3,17 +3,17 @@
 This is a WebApp that checks odds for a D20 RPG Dice and returns those odds based on
 Pathfinder 2E rules that configures as Four Degrees of Succes:
 
-<img src="image.png" alt="Pathfing deegres of success">
+<img src="imagem.png" alt="Pathfing deegres of success">
 
 ## Technologies
 
-- ViteJS - Build tool for modern web projects.
+- <a href="https://vite.dev"> ViteJS </a> - Build tool for modern web projects.
 
-- Typescript - superset for JavaScript. Typed programming language built on JS.
+- <a href="https://www.typescriptlang.org"> Typescript </a>- superset for JavaScript. Typed programming language built on JS.
 
-- Node.js - JavaScript runtime environment.
+- <a href="https://nodejs.org/en"> Node.js </a>- JavaScript runtime environment.
 
-- Docker - Containerization platform that bundle applications in containers.
+- <a href="https://www.docker.com"> Docker </a>- Containerization platform that bundle applications in containers.
 
 ## Installation
 

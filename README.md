@@ -1,7 +1,7 @@
 # PathFinder 2E - DiceRoll WebApp
 
 This is a WebApp that checks odds for a D20 RPG Dice and returns those odds based on
-Pathfinder 2E rules that configures as Four Degrees of Succes:
+Pathfinder 2E rules that configures as Four Degrees of Success:
 
 <img src="image.png" alt="Pathfing degrees of success">
 

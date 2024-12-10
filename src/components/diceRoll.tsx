@@ -12,6 +12,24 @@ const DiceRoll: React.FC = () => {
   const [difficultyClass, setdifficultyClass] = useState<number | "">("");
   const [result, setResult] = useState<fetchResponse>({} as fetchResponse);
 
+  function handleModifierChange(modifier:string){
+
+    const newModifier = modifier;
+
+    // Atualiza o estado com o número ou vazio, dependendo da entrada
+    setmodifier(newModifier === "" ? "" : Number(newModifier));
+
+  }
+
+  function handleDifficultyChange(difficultyClass:string){
+
+    const newDifficulty = difficultyClass;
+
+    // Atualiza o estado com o número ou vazio, dependendo da entrada
+    setdifficultyClass(newDifficulty === "" ? "" : Number(newDifficulty));
+
+  }
+
   async function handleSearch(){
     if (modifier === "" || difficultyClass === "") {
       alert("Por favor, preencha ambos os campos.");
@@ -47,8 +65,8 @@ const DiceRoll: React.FC = () => {
           Modifier:
           <input
             type="number"
-            value={modifier}
-            onChange={(e) => setmodifier(Number(e.target.value) || "")}
+            value={modifier || 0}
+            onChange={(e) => handleModifierChange(e.target.value)}
             style={{ marginLeft: "10px", padding: "5px", width: "100%" }}
           />
         </label>
@@ -58,8 +76,8 @@ const DiceRoll: React.FC = () => {
           Difficulty Class:
           <input
             type="number"
-            value={difficultyClass}
-            onChange={(e) => setdifficultyClass(Number(e.target.value) || "")}
+            value={difficultyClass || 0}
+            onChange={(e) => handleDifficultyChange(e.target.value)}
             style={{ marginLeft: "10px", padding: "5px", width: "100%" }}
           />
         </label>
